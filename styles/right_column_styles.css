@@ -1,0 +1,137 @@
+#google_logo{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 2px;
+    right: 12px;
+}
+
+#apple_logo{
+    vertical-align: middle;
+    height: 20px;
+    width: 15px;
+    position: relative;
+    bottom: 2px;
+    right: 10px;
+}
+
+button{
+    font-family: 'Segoe UI';
+    font-size: 1em;
+}
+
+.right_column{
+    min-width: min-content;
+    height: 100vh;
+    width: 38vw;
+}
+
+.trends_panel{
+    h4{
+        font-family: 'Arial';
+        font-weight: lighter;
+        color:rgb(131, 147, 160);
+    }
+
+    width: 350px;
+    height: 120px;
+    margin-left: 3vh;
+    margin-top: 1vh;
+    padding-left: 2vh;
+    border-style:none;
+    background-color: #F7F9F9;
+    border-radius: 16px;
+    margin-right: 20vh;
+}
+
+.right_column_content{
+    h3{
+        font-family: 'Segoe UI';
+        font-size: 1.3em;
+        font-weight: bolder;
+        color: rgb(31, 32, 32);
+    }
+
+    h5{        
+        font-family: 'Arial';
+        font-weight: lighter;
+        color:rgb(131, 147, 160);
+    }
+
+    width: 350px;
+    margin-left: 3vh;
+    margin-top: 1vh;
+    padding-left: 2vh;
+    border-style:solid;
+    border-radius: 16px;
+    border-color: rgb(207, 217, 222, 0.4);
+    border-width: 1px;
+    background-color: #ffffff;
+    margin-right: 20vh;
+}
+
+.right_column_links{
+    font-family: 'Segoe UI';
+    color: #536471;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    column-gap: 20px;
+    a{
+        color: #536471;
+        background-color: transparent;
+        text-decoration: none;
+    }
+      
+    a:visited {
+        color: #536471;
+        background-color: transparent;
+        text-decoration: none;
+    }
+      
+    a:hover {
+        color: #536471;
+
+        background-color: transparent;
+        text-decoration: underline;
+    }
+      
+    a:active {
+        color: #536471;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    width: 18vw;
+    margin-left: 3vh;
+    margin-top: 1vh;
+    padding-left: 2vh;
+    border-style:none;
+    border-radius: 16px;
+    border-color: rgb(207, 217, 222, 0.4);
+    border-width: 1px;
+    background-color: #ffffff;
+    margin-right: 20vh;
+}
+
+button{
+    border-style:solid;
+    border-radius: 16px;
+    border-color: #CFD9DE;
+    border-width: 1px;
+
+    background-color: #ffffff;
+    border-radius: 50px;
+    height: 40px;
+    width: 310px;
+}
+
+.button_menu{
+    align-self: center; 
+    width: 90%; 
+    display:flex; 
+    flex-direction: column; 
+    row-gap: 1vh;
+}

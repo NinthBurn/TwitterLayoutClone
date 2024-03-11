@@ -1,0 +1,34 @@
+#settings_icon {
+    vertical-align: middle;
+    height: 22px;
+    width: 22px;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
+.left_column_content{
+    display: flex; 
+    flex-direction:column; 
+    margin-right:14vh;
+    margin-top:4px; 
+    row-gap: 16px;
+}
+
+.settings_bar{
+    display: flex; 
+    column-gap: 20px; 
+    align-self: self-end;
+}
+
+.left_column{
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: right;
+    height: 100vh;
+    width: 30vw;
+    min-width: min-content;
+    min-height: fit-content;
+}

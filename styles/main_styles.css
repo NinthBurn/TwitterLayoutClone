@@ -1,0 +1,36 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin:0;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    margin: 0
+}
+
+a{
+    color: rgb(81, 178, 243);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: rgb(81, 178, 243);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(81, 178, 243);
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: rgb(81, 178, 243);
+    background-color: transparent;
+    text-decoration: underline;
+}
